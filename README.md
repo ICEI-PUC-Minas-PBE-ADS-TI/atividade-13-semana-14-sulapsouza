@@ -19,7 +19,7 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 Nesta etapa, foi adicionada uma página de Dashboard (dashboard.html) para a apresentação visual e avançada dos dados da aplicação. Utilizamos a Fetch API assíncrona do JavaScript para buscar os dados dos produtos diretamente do nosso backend simulado (JSON Server). A partir dessa requisição, desenvolvemos um algoritmo para agrupar e contabilizar o número de itens existentes em cada categoria da floricultura. Por fim, integramos a biblioteca externa Chart.js para renderizar um gráfico de pizza (pie chart) interativo e responsivo. O gráfico é alimentado dinamicamente, o que significa que qualquer adição, exclusão ou alteração nos itens do arquivo db.json reflete instantaneamente na interface visual, permitindo uma análise clara da distribuição do catálogo.
 
 <<  COLOQUE A IMAGEM DA TELA 1 AQUI >>
-[Imagem 1 do Dashboard](/images/grafico1.png)
+![Imagem 1 do Dashboard](/images/grafico1.png)
 <<  COLOQUE A IMAGEM DA TELA 2 AQUI >>
-[Imagem 1 do Dashboard](/images/grafico2.png)
+![Imagem 1 do Dashboard](/images/grafico2.png)
 
