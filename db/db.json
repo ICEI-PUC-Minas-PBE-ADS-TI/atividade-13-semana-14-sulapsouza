@@ -1,18 +1,120 @@
 {
-  "usuarios": [
+  "categorias": [
+    { "id": "1", "nome": "Arranjos" },
+    { "id": "2", "nome": "Buquês" },
+    { "id": "3", "nome": "Plantas de Vaso" },
+    { "id": "4", "nome": "Acessórios" }
+  ],
+  "flores": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "1",
+      "nome": "Buquê de Rosas Vermelhas",
+      "descricaoCurta": "Clássico buquê com 12 rosas vermelhas.",
+      "descricaoCompleta": "Um lindo buquê montado com 12 rosas vermelhas importadas, envoltas em papel kraft e laço de cetim. Ideal para demonstrar amor e paixão em datas especiais.",
+      "imagem": "https://taquariflores.com.br/wp-content/uploads/2024/10/buque-de-12-rosas-vermelhas-toque-de-paixao.jpg",
+      "categoria": "Buquês",
+      "preco": 120.00,
+      "tags": ["romântico", "presente", "rosas"],
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "2",
+      "nome": "Orquídea Phalaenopsis",
+      "descricaoCurta": "Elegante orquídea em vaso de cerâmica.",
+      "descricaoCompleta": "Orquídea Phalaenopsis branca de duas hastes em um delicado vaso de cerâmica. Traz sofisticação e paz para qualquer ambiente interno.",
+      "imagem": "https://cdn.awsli.com.br/600x450/2446/2446161/produto/227889909/20230731_132046-fotor-2023080219153-elpz1r33om.jpg",
+      "categoria": "Plantas de Vaso",
+      "preco": 85.50,
+      "tags": ["interior", "decoração", "elegante"],
+      "destaque": true
+    },
+    {
+      "id": "3",
+      "nome": "Arranjo Tropical",
+      "descricaoCurta": "Mix de flores tropicais vibrantes.",
+      "descricaoCompleta": "Arranjo exótico contendo Estrelíitzias, Antúrios e folhagens variadas. Perfeito para alegrar ambientes e presentear com energia.",
+      "imagem": "https://marceloreisflorespaisagismo.com/wp-content/uploads/2023/11/IMG_4041-scaled.jpg",
+      "categoria": "Arranjos",
+      "preco": 150.00,
+      "tags": ["exótico", "vibrante", "festa"],
+      "destaque": false
+    },
+    {
+      "id": "4",
+      "nome": "Buquê de Girassóis",
+      "descricaoCurta": "Buquê radiante com 6 girassóis.",
+      "descricaoCompleta": "Ilumine o dia de alguém com este buquê de 6 girassóis grandes e folhagens verdes. Representa alegria, lealdade e entusiasmo.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSm493RtXK76MaLyfx_VR4R4GpfqFuMFJoSuzHaQ5U0g&s=10",
+      "categoria": "Buquês",
+      "preco": 95.00,
+      "tags": ["alegria", "amizade", "girassol"],
+      "destaque": true
+    },
+    {
+      "id": "5",
+      "nome": "Suculenta em Vaso de Barro",
+      "descricaoCurta": "Pequena e fácil de cuidar.",
+      "descricaoCompleta": "Mini suculenta plantada em vaso de barro artesanal. Ideal para mesas de escritório ou lembrancinhas. Requer pouca água e luz indireta.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL4wKghu8EVX7H164w7wGbxx89ni9sVHrUS1TlOhHRKw&s=10",
+      "categoria": "Plantas de Vaso",
+      "preco": 25.00,
+      "tags": ["fácil cuidado", "escritório", "lembrancinha"],
+      "destaque": false
+    },
+    {
+      "id": "6",
+      "nome": "Vaso de Vidro Transparente",
+      "descricaoCurta": "Vaso cilíndrico para arranjos médios.",
+      "descricaoCompleta": "Vaso de vidro temperado transparente, 20cm de altura. Design minimalista que destaca a beleza natural das flores colocadas nela.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFUbOTYLOwyop2yBQ9z8kdlpq80EhaOimCYv7L5ggEA&s=10",
+      "categoria": "Acessórios",
+      "preco": 45.00,
+      "tags": ["vidro", "decoração", "minimalista"],
+      "destaque": false
+    },
+    {
+      "id": "7",
+      "nome": "Bonsai de Ficus",
+      "descricaoCurta": "Mini árvore escultural para interiores.",
+      "descricaoCompleta": "Bonsai da espécie Ficus Retusa, com aproximadamente 5 anos de idade. Acompanha vaso de cerâmica esmaltada e prato.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQELGiOhpgCpckwYJZ2g0Vg0duXjGmO8nbpd7qkBKaZUhIj2k58E2Zw1LUX&s=10",
+      "categoria": "Plantas de Vaso",
+      "preco": 210.00,
+      "tags": ["zen", "decoração", "presente refinado"],
+      "destaque": true
+    },
+    {
+      "id": "8",
+      "nome": "Buquê de Margaridas",
+      "descricaoCurta": "Simples, delicado e encantador.",
+      "descricaoCompleta": "Um buquê farto de margaridas brancas com miolo amarelo. Traz uma sensação de campo e pureza. Acompanha laço rústico.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfMG8Z1N-pGv8V3JtFNWWFkeEfxtUZ4LmUN_AkoFX94ceEaU0Dn9JIvB76&s=10",
+      "categoria": "Buquês",
+      "preco": 65.00,
+      "tags": ["campo", "delicado", "primavera"],
+      "destaque": false
+    },
+    {
+      "id": "9",
+      "nome": "Arranjo de Lírios",
+      "descricaoCurta": "Lírios brancos e cor-de-rosa em vaso.",
+      "descricaoCompleta": "Majestoso arranjo de lírios perfumados, combinando tons de branco e rosa. Ideal para casamentos, formaturas ou presentes sofisticados.",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1343514/arranjo_de_lirio_artificial_rosa_no_vaso_italia_rose_gold_formosinha_2237_5_f55d0a6235fe6a15165307a0e7824d4e.jpg",
+      "categoria": "Arranjos",
+      "preco": 180.00,
+      "tags": ["perfumado", "sofisticado", "lírios"],
+      "destaque": false
+    },
+    {
+      "id": "10",
+      "nome": "Adubo Orgânico Líquido",
+      "descricaoCurta": "Nutrição completa para suas plantas.",
+      "descricaoCompleta": "Frasco de 500ml de adubo orgânico líquido, rico em macronutrientes. Ajuda no enraizamento e floração, mantendo suas plantas sempre saudáveis.",
+      "imagem": "https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?auto=format&fit=crop&w=400&q=80",
+      "categoria": "Acessórios",
+      "preco": 35.00,
+      "tags": ["jardinagem", "cuidado", "orgânico"],
+      "destaque": false
     }
   ]
 }
